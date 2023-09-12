@@ -1,10 +1,11 @@
 import './CalculatorUI.css';
+import Output from './Output';
 
 function CalculatorButtons() {
   return (
     <div className="main-container">
       <div className="cal-container">
-        <div className="output" dir="rtl">0</div>
+        <Output />
         <button type="button" className="keypad">AC</button>
         <button type="button" className="keypad">+/-</button>
         <button type="button" className="keypad">%</button>
