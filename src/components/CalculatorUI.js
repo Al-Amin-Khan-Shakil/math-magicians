@@ -4,7 +4,7 @@ function CalculatorButtons() {
   return (
     <div className="main-container">
       <div className="cal-container">
-        <div className="output">0</div>
+        <div className="output" dir="rtl">0</div>
         <button type="button" className="keypad">AC</button>
         <button type="button" className="keypad">+/-</button>
         <button type="button" className="keypad">%</button>

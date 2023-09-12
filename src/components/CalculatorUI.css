@@ -1,3 +1,41 @@
 .main-container {
-  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e2e2;
+  padding: 50px;
+  width: 70%;
+  border-radius: 8px;
+}
+
+.cal-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  width: 100%;
+}
+
+.output {
+  grid-area: 1 / 1 / 2 / 5;
+  border: none;
+  background: #e2e2e2;
+  border-radius: 13px;
+  font-size: x-large;
+  color: #3339;
+  box-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #fff;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.num-zero {
+  grid-area: 6 / 1 / 7 / 3;
+}
+
+.keypad {
+  border: none;
+  background: #e2e2e2;
+  border-radius: 14px;
+  box-shadow: 6px 6px 12px #b5b5b5, -6px -6px 12px #fff;
+  padding: 20px;
+  font-size: larger;
 }
