@@ -27,7 +27,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-**Math Magicians** is a create react app setup to create a spa app in it.
+**Math Magicians** is a simple calculator app created by react app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -110,6 +110,9 @@ To run tests, run the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Calculator App**
+- **Events**
+- **Fatch API**
+- **Full Website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
