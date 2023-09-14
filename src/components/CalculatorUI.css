@@ -17,13 +17,17 @@
 .output {
   grid-area: 1 / 1 / 2 / 5;
   border: none;
-  font-size: x-large;
-  color: #fff;
   background-color: #858694;
   padding: 0 1%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: flex-end;
+}
+
+.display {
+  font-size: x-large;
+  color: #fff;
 }
 
 .num-zero {
@@ -35,8 +39,17 @@
   color: #444;
   border: 1px solid #cecece;
   font-size: large;
+  cursor: pointer;
+}
+
+.keypad:active {
+  background-color: #c9c8c8;
 }
 
 .last-col {
   background-color: #f5913e;
+}
+
+.last-col:active {
+  background-color: #f58326;
 }
