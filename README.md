@@ -49,6 +49,8 @@
 
 - **Linters**
 - **React**
+- **Click Event**
+- **Calculation Function**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,8 +111,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Calculator App**
-- **Events**
 - **Fatch API**
 - **Full Website**
 
