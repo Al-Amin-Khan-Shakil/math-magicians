@@ -19,7 +19,11 @@ function CalculatorButtons() {
       <div className="cal-container">
         <div className="output">
           <div className="display">
-            {state.next || state.total || state.operation || '0'}
+            {state.total}
+            {' '}
+            {state.operation}
+            {' '}
+            {state.next}
           </div>
         </div>
         <button
