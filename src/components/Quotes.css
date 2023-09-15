@@ -1,0 +1,33 @@
+.message {
+  font-size: 2rem;
+  color: #ffa340;
+  margin: 60px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 50px;
+  width: 60vw;
+}
+
+.qtag {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.author {
+  align-self: flex-end;
+  margin-right: 60px;
+}

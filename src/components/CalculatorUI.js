@@ -4,7 +4,7 @@ import calculate from './logics/calculate';
 
 function CalculatorButtons() {
   const [state, setState] = useState({
-    total: null,
+    total: '0',
     next: null,
     operation: null,
   });
