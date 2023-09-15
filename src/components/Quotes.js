@@ -1,3 +1,4 @@
+import './Quotes.css';
 import { useState, useEffect } from 'react';
 
 const url = 'https://api.api-ninjas.com/v1/quotes?category=computers';
@@ -37,12 +38,14 @@ const Quotes = () => {
   if (isLoading || isError) {
     return <p className="message">{message}</p>;
   }
-
   return (
     <div className="quote-container">
       <blockquote className="quote">
         <q className="qtag">{quotes.quote}</q>
-        <cite className="author">{quotes.author}</cite>
+        <cite className="author">
+          ---
+          {quotes.author}
+        </cite>
       </blockquote>
     </div>
   );
