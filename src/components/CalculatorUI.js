@@ -16,6 +16,9 @@ function CalculatorButtons() {
 
   return (
     <div className="cal-wrapper">
+      <h2 className="cal-title">
+        Let&apos;s do some math!
+      </h2>
       <div className="main-container">
         <div className="cal-container">
           <div className="output">

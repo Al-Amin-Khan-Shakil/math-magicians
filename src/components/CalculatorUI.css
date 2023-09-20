@@ -1,8 +1,21 @@
+.cal-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 7vh 2vw;
+}
+
+.cal-title {
+  font-size: 2.3rem;
+  color: #130f40;
+}
+
 .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70vw;
+  width: 60vw;
   height: 70vh;
 }
 
