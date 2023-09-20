@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60vw;
+  width: 70vw;
   height: 70vh;
 }
 
@@ -17,7 +17,7 @@
 .output {
   grid-area: 1 / 1 / 2 / 5;
   border: none;
-  background-color: #858694;
+  background-color: #8395a7;
   padding: 0 1%;
   display: flex;
   flex-wrap: wrap;
@@ -35,21 +35,21 @@
 }
 
 .keypad {
-  background: #e0e0e0;
+  background: #dfe4ea;
   color: #444;
-  border: 1px solid #cecece;
+  border: 1px solid #a4b0be;
   font-size: large;
   cursor: pointer;
 }
 
 .keypad:active {
-  background-color: #c9c8c8;
+  background-color: #ced6e0;
 }
 
 .last-col {
-  background-color: #f5913e;
+  background-color: #ffc312;
 }
 
 .last-col:active {
-  background-color: #f58326;
+  background-color: #f79f1f;
 }

@@ -1,8 +1,8 @@
 const Home = () => (
   <div className="home-wrapper">
-    <h2 className="home-title">
+    <h1 className="home-title">
       Experience Math Like Never Before with Math Magicians!
-    </h2>
+    </h1>
     <p className="home-paragraph">
       Welcome to Math Magicians, where numbers come to life, equations dance at your
       fingertips, and math becomes an enchanting journey. Our cutting-edge calculator app
