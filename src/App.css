@@ -20,7 +20,7 @@
 .logo {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #130f40;
+  color: #0a3d62;
 }
 
 .navbar ul {
@@ -34,7 +34,7 @@
   font-size: 1.3rem;
   font-weight: 500;
   padding: 6px 4vw;
-  border-right:2px solid #006266;
+  border-right: 2px solid #006266;
 }
 
 .navbar ul li:last-child {
@@ -44,7 +44,7 @@
 
 .navlink {
   text-decoration: none;
-  color: #130f40;
+  color: #0a3d62;
 }
 
 .active {
@@ -61,7 +61,7 @@
 }
 
 .home-title {
-  color: #130f40;
+  color: #0a3d62;
   font-size: 2.3rem;
   margin: 3vh 0;
 }
