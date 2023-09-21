@@ -40,6 +40,7 @@ const Quotes = () => {
   }
   return (
     <div className="quote-container">
+      <h2 className="quote-title">Quote of the moment!</h2>
       <blockquote className="quote">
         <q className="qtag">{quotes.quote}</q>
         <cite className="author">

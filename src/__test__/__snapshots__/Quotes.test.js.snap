@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Quotes component 1`] = `
+<div
+  className="quote-container"
+>
+  <h2
+    className="quote-title"
+  >
+    Quote of the moment!
+  </h2>
+  <blockquote
+    className="quote"
+  >
+    <q
+      className="qtag"
+    />
+    <cite
+      className="author"
+    >
+      ---
+    </cite>
+  </blockquote>
+</div>
+`;
