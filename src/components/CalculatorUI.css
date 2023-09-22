@@ -1,0 +1,68 @@
+.cal-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 7vh 2vw;
+}
+
+.cal-title {
+  font-size: 2.3rem;
+  color: #0a3d62;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 70vh;
+}
+
+.cal-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66%;
+  width: 100%;
+  height: 100%;
+}
+
+.output {
+  grid-area: 1 / 1 / 2 / 5;
+  border: none;
+  background-color: #8395a7;
+  padding: 0 1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.display {
+  font-size: x-large;
+  color: #fff;
+}
+
+.num-zero {
+  grid-area: 6 / 1 / 7 / 3;
+}
+
+.keypad {
+  background: #dfe4ea;
+  color: #444;
+  border: 1px solid #a4b0be;
+  font-size: large;
+  cursor: pointer;
+}
+
+.keypad:active {
+  background-color: #ced6e0;
+}
+
+.last-col {
+  background-color: #ffc312;
+}
+
+.last-col:active {
+  background-color: #ffa502;
+}
